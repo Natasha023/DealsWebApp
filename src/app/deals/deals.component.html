@@ -1,0 +1,24 @@
+<div class="title">
+<p>
+  Today's Top Deals !!!
+</p>
+<input class="searchBar" id="search" placeholder="Search..." [(ngModel)]="search"/>
+</div>
+<section class="card" *ngFor="let deal of this.deals | filter:search" >
+	<div class="panel-body">
+		<div class="photo">
+			<img [src]="deal.image" >
+		</div>
+		<table class="deal-info">
+			<tr>
+				<td>
+					<h3>{{deal.name | uppercase}}</h3>
+					<p class="website">{{deal.website}}</p>
+					<p class="price">{{deal.price| currency: 'USD':true}}<i class="oldprice">{{deal.orPrice |currency:'USD':true}}</i></p>
+					<p>{{deal.description}}</p>
+					<a [href]="deal.url" target="_blank" class="purchaseBtn" >See It!</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+</section>

@@ -1,0 +1,80 @@
+h3 {
+  color: #9397d8;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+div img{
+  max-width:300px;
+  width:300px;
+  overflow:hidden;
+}
+
+.title{
+  text-align: center;
+  font-size: 24px;
+  font-family: Tahoma;
+  font-weight: bold;
+  color: #9b59b6;
+}
+
+.searchBar{
+  width: 400px;
+  height:20px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.card {
+  background: #FFFFFF;
+  margin-bottom: 30px;
+  min-height: 160px;
+}
+
+.deal-info {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.panel-body {
+  display: table;
+  padding: 0;
+}
+
+.photo {
+  float: left;
+  margin-right: 30px;
+}
+.website{
+  color: #d35400;
+}
+.price {
+  margin: 0;
+  font-size: 18px;
+}
+.oldprice{
+	text-decoration:line-through;
+	font-size: 18px;
+	margin-left: 10px;
+	color: #808080;
+}
+
+.purchaseBtn{
+	background-color: #af7ac5;
+	border: none;
+	color: white;
+	padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+	font-size:18px;
+}
+
+.purchaseBtn:hover{
+	background-color: #7d3c98;
+}
+
+
+
+
+
+
