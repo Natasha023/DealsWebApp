@@ -1,0 +1,12 @@
+html {
+    font-family: sans-serif;
+}
+.homeBanner{
+	background-image: url(/images/homeBanner.jpg);
+	background-repeat: no-repeat; 
+	height:180px; 
+	max-height: 180px;
+	color: white;
+	text-align: center;
+	line-height: 160px;
+}
